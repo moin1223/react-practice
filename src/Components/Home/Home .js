@@ -1,4 +1,5 @@
 import React from 'react';
+import ContactUs from '../Contactform/Contactform';
 import Cards from '../ReviwCardSlider/Cards';
 
 const Home  = () => {
@@ -6,6 +7,7 @@ const Home  = () => {
     <>
     {/* Tesmonial */}
     <Cards/>
+    <ContactUs/>
 
     </>
   );
