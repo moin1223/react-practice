@@ -20,14 +20,17 @@ const SingleKids = (props) => {
     return (
      
       
-        <div > 
+        <div className="col-md-3 mt-5 p-3" > 
               
-             <Link to={`/details/${id}`}>
+      
+        <Link to={`/details/${id}`}>
              <img className='rounded-1' width='200px' height='200px' src={photo}/>
 
              </Link>
              <p className='text-center'>name:{name}</p>
              
+
+    
         </div>
         
      

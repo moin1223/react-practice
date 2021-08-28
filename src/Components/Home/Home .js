@@ -35,7 +35,7 @@ const Home  = () => {
     ]
 
     return (
-        <div>
+        <div className="row">
            <Slider {...settings}>
       
 
